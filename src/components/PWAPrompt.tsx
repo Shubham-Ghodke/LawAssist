@@ -3,7 +3,6 @@ import { X, RefreshCw } from 'lucide-react'
 
 export function PWAPrompt() {
   const {
-    offlineReady: [offlineReady, setOfflineReady],
     needRefresh: [needRefresh, setNeedRefresh],
     updateServiceWorker,
   } = useRegisterSW({
@@ -16,7 +15,6 @@ export function PWAPrompt() {
   })
 
   const close = () => {
-    setOfflineReady(false)
     setNeedRefresh(false)
   }
 
