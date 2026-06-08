@@ -10,7 +10,7 @@ export default defineConfig({
             registerType: 'autoUpdate',
             includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'pwa-192x192.png', 'pwa-512x512.png'],
             manifest: {
-                name: 'LawAssist V2',
+                name: 'LawAssist',
                 short_name: 'LawAssist',
                 description: 'Intelligent legal assistance and emergency guidance.',
                 theme_color: '#000000',
