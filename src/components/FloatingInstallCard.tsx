@@ -42,7 +42,10 @@ export function FloatingInstallCard() {
     }
   };
 
-  if (isDismissed) return null;
+  // Detect if the app is running in standalone mode (already installed)
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches || ('standalone' in window.navigator && (window.navigator as any).standalone);
+
+  if (isStandalone || isDismissed) return null;
 
   return (
     <div className="fixed bottom-24 left-1/2 -translate-x-1/2 md:bottom-8 md:right-8 md:left-auto md:translate-x-0 z-50 w-[90%] max-w-sm animate-in slide-in-from-bottom-8 duration-500">
