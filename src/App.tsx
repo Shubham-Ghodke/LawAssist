@@ -9,11 +9,13 @@ import { useTranslation } from 'react-i18next';
 import { Disclaimer } from './components/Disclaimer';
 import { PWAPrompt } from './components/PWAPrompt';
 import { FloatingInstallCard } from './components/FloatingInstallCard';
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   useTranslation();
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-dark text-light relative overflow-hidden font-sans">
         {/* Background gradient effects for the whole app */}
         <div className="fixed top-[-20%] left-[-10%] w-[50%] h-[50%] bg-blue/10 rounded-full blur-[120px] pointer-events-none z-0" />
