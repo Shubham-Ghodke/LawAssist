@@ -150,7 +150,7 @@ export function SearchComponent() {
                         <p className="font-semibold text-light group-hover:text-blue transition-colors text-base">{t(`issues.${item.id}.title`, item.title)}</p>
                         {item.mlPredicted && (
                           <span className="flex items-center gap-1 text-[10px] font-bold px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-400 border border-purple-500/30 uppercase tracking-wider">
-                            <BrainCircuit className="w-3 h-3" /> AI Predicted ({item.mlConfidence}%)
+                            <BrainCircuit className="w-3 h-3" /> ML Prediction ({item.mlConfidence}%)
                           </span>
                         )}
                       </div>

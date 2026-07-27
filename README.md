@@ -12,7 +12,6 @@ By combining interactive educational scenarios, localized multi-language support
 ## 🚀 Key Features
 
 * **📱 Progressive Web App (PWA):** Fully installable on both mobile and desktop devices, providing a seamless, native app-like experience. Robust Service Worker caching ensures that critical emergency guidance is accessible **100% offline**.
-* **🤖 AI-Accelerated Development:** The architecture, styling, and logic of this codebase were meticulously crafted and accelerated through the use of advanced AI pair-programming tools, resulting in a highly optimized and robust production build.
 * **🧠 Client-Side Machine Learning:** Features a custom, entirely local Natural Language Processing (NLP) bag-of-words classification engine. It intelligently predicts user emergencies based on their queries *without ever transmitting sensitive user data to external servers*.
 * **🎮 Interactive Scenarios:** Gamified, interactive decision-making scenarios that help educate users on recognizing and reacting to real-world scams and legal traps.
 * **🌐 Multilingual Support:** Full internationalization (i18next) seamlessly toggling between English and Hindi to maximize accessibility.
